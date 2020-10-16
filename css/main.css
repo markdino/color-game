@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background-color: blueviolet;
+}
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container {
+  background-color: #fff;
+  max-width: 500px;
+  width: 100%;
+  border: solid 1px gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.colorGroup {
+  display: flex;
+}
+.color {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: rgb(223, 223, 223);
+  color: white;
+  border: solid 4px rgb(122, 122, 122);
+}
+
+#colorBets {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 10px;
+  width: 300px;
+}
+
+.bet {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+}
